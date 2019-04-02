@@ -164,42 +164,42 @@ void init(void)
 void draw_start_line()
 {
 	float i, j, k = 0;
-	for (i = 0.0; i > -0.5; i = i - 0.025)
+	for (i = 0.0; i > -25.0; i = i - 1.25)
 	{
-		j = 0.3;
+		j = 15.0;
 
 		if (k == 0)
 		{
 			glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
 			glBegin(GL_QUADS);
 			glVertex2f(j, i);
-			glVertex2f(j + 0.025, i);
-			glVertex2f(j + 0.025, i - 0.025);
-			glVertex2f(j, i - 0.025);
+			glVertex2f(j + 1.25, i);
+			glVertex2f(j + 1.25, i - 1.25);
+			glVertex2f(j, i - 1.25);
 			glEnd();
 
 			glColor4f(0.0f, 0.0f, 0.0f, 0.0f);
 			glBegin(GL_QUADS);
-			glVertex2f(j + 0.025, i);
-			glVertex2f(j + 0.05, i);
-			glVertex2f(j + 0.05, i - 0.025);
-			glVertex2f(j + 0.025, i - 0.025);
+			glVertex2f(j + 1.25, i);
+			glVertex2f(j + 2.5, i);
+			glVertex2f(j + 2.5, i - 1.25);
+			glVertex2f(j + 1.25, i - 1.25);
 			glEnd();
 
 			glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
 			glBegin(GL_QUADS);
-			glVertex2f(j + 0.05, i);
-			glVertex2f(j + 0.075, i);
-			glVertex2f(j + 0.075, i - 0.025);
-			glVertex2f(j + 0.05, i - 0.025);
+			glVertex2f(j + 2.5, i);
+			glVertex2f(j + 3.75, i);
+			glVertex2f(j + 3.75, i - 1.25);
+			glVertex2f(j + 2.5, i - 1.25);
 			glEnd();
 
 			glColor4f(0.0f, 0.0f, 0.0f, 0.0f);
 			glBegin(GL_QUADS);
-			glVertex2f(j + 0.075, i);
-			glVertex2f(j + 0.1, i);
-			glVertex2f(j + 0.1, i - 0.025);
-			glVertex2f(j + 0.075, i - 0.025);
+			glVertex2f(j + 3.75, i);
+			glVertex2f(j + 5.0, i);
+			glVertex2f(j + 5.0, i - 1.25);
+			glVertex2f(j + 3.75, i - 1.25);
 			glEnd();
 
 			k = 1;
@@ -209,33 +209,33 @@ void draw_start_line()
 			glColor4f(0.0f, 0.0f, 0.0f, 0.0f);
 			glBegin(GL_QUADS);
 			glVertex2f(j, i);
-			glVertex2f(j + 0.025, i);
-			glVertex2f(j + 0.025, i - 0.025);
-			glVertex2f(j, i - 0.025);
+			glVertex2f(j + 1.25, i);
+			glVertex2f(j + 1.25, i - 1.25);
+			glVertex2f(j, i - 1.25);
 			glEnd();
 
 			glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
 			glBegin(GL_QUADS);
-			glVertex2f(j + 0.025, i);
-			glVertex2f(j + 0.05, i);
-			glVertex2f(j + 0.05, i - 0.025);
-			glVertex2f(j + 0.025, i - 0.025);
+			glVertex2f(j + 1.25, i);
+			glVertex2f(j + 2.5, i);
+			glVertex2f(j + 2.5, i - 1.25);
+			glVertex2f(j + 1.25, i - 1.25);
 			glEnd();
 
 			glColor4f(0.0f, 0.0f, 0.0f, 0.0f);
 			glBegin(GL_QUADS);
-			glVertex2f(j + 0.05, i);
-			glVertex2f(j + 0.075, i);
-			glVertex2f(j + 0.075, i - 0.025);
-			glVertex2f(j + 0.05, i - 0.025);
+			glVertex2f(j + 2.5, i);
+			glVertex2f(j + 3.75, i);
+			glVertex2f(j + 3.75, i - 1.25);
+			glVertex2f(j + 2.5, i - 1.25);
 			glEnd();
 
 			glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
 			glBegin(GL_QUADS);
-			glVertex2f(j + 0.075, i);
-			glVertex2f(j + 0.1, i);
-			glVertex2f(j + 0.1, i - 0.025);
-			glVertex2f(j + 0.075, i - 0.025);
+			glVertex2f(j + 3.75, i);
+			glVertex2f(j + 5.0, i);
+			glVertex2f(j + 5.0, i - 1.25);
+			glVertex2f(j + 3.75, i - 1.25);
 			glEnd();
 
 			k = 0;
@@ -320,43 +320,43 @@ void display(void)
 
 	glColor3f(0.0f, 1.0f, 1.0f);
 	glBegin(GL_QUADS);
-	glVertex2f(-1.0, 1.0);
-	glVertex2f(1.0, 1.0);
-	glVertex2f(1.0, 0.25);
-	glVertex2f(-1.0, 0.25);
+	glVertex2f(-50.0, 50.0);
+	glVertex2f(50.0, 50.0);
+	glVertex2f(50.0, 12.5);
+	glVertex2f(-50.0, 12.5);
 	glEnd();
 
 	glColor3f(0.0f, 1.0f, 0.0f);
 	glBegin(GL_QUADS);
-	glVertex2f(-1.0, 0.25);
-	glVertex2f(1.0, 0.25);
-	glVertex2f(1.0, 0.0);
-	glVertex2f(-1.0, 0.0);
+	glVertex2f(-50.0, 12.5);
+	glVertex2f(50.0, 12.5);
+	glVertex2f(50.0, 0.0);
+	glVertex2f(-50.0, 0.0);
 	glEnd();
 
 
 	glColor3f(0.1f, 0.1f, 0.1f);
 	glBegin(GL_QUADS);
-	glVertex2f(-1.0, 0.0);
-	glVertex2f(1.0, 0.0);
-	glVertex2f(1.0, -0.5);
-	glVertex2f(-1.0, -0.5);
+	glVertex2f(-50.0, 0.0);
+	glVertex2f(50.0, 0.0);
+	glVertex2f(50.0, -25.0);
+	glVertex2f(-50.0, -25.0);
 	glEnd();
 
 	glColor4f(255.0, 255.0, 0.0, 1.0);
 	glBegin(GL_QUADS);
-	glVertex2f(-1.0, -0.225);
-	glVertex2f(1.0, -0.225);
-	glVertex2f(1.0, -0.275);
-	glVertex2f(-1.0, -0.275);
+	glVertex2f(-50.0, -11.25);
+	glVertex2f(50.0, -11.25);
+	glVertex2f(50.0, -13.75);
+	glVertex2f(-50.0, -13.75);
 	glEnd();
 
 	glColor3f(0.0f, 1.0f, 0.0f);
 	glBegin(GL_QUADS);
-	glVertex2f(-1.0, -0.5);
-	glVertex2f(1.0, -0.5);
-	glVertex2f(1.0, -1.0);
-	glVertex2f(-1.0, -1.0);
+	glVertex2f(-50.0, -25.0);
+	glVertex2f(50.0, -25.0);
+	glVertex2f(50.0, -50.0);
+	glVertex2f(-50.0, -50.0);
 	glEnd();
 	
 
@@ -369,7 +369,7 @@ void display(void)
 	circle(3);
 	glPopMatrix();
 	
-	glClear(GL_COLOR_BUFFER_BIT);
+
 	glPushMatrix();
 	glColor3f(1, 1, 1);
 	glTranslatef(cx, 17.0, 0.0);
