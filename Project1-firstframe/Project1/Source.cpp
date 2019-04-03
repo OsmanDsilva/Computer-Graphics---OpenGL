@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<Windows.h>
-#include<gl/GL.h>
+
 #include<GL/glut.h>
 #include<math.h>
 #define PI 3.1416
