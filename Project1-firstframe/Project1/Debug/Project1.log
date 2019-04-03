@@ -1,0 +1,109 @@
+﻿  Source.cpp
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(23): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(122): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(123): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(124): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(125): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(131): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(132): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(133): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(134): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(138): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(140): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(141): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(142): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(143): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(148): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(149): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(154): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(155): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(160): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(167): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(172): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(173): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(178): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(179): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(184): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(185): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(190): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(191): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(196): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(202): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(208): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(214): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(223): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(225): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(226): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(227): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(228): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(232): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(234): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(235): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(236): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(237): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(241): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(243): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(244): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(245): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(246): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(252): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(258): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(264): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(270): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(279): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(281): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(282): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(283): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(284): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(288): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(290): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(291): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(292): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(293): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(297): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(299): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(300): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(301): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(302): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(308): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(314): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(320): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(326): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(359): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(364): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(369): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(377): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(383): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(392): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(393): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(394): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(399): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(400): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(401): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(402): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(407): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(408): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(409): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(410): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(415): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(416): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(417): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(418): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(428): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(429): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(430): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(435): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(436): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(437): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(438): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(443): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(444): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(445): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(446): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(451): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(452): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(453): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(454): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(605): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project1-firstframe\project1\source.cpp(636): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Project1.vcxproj -> C:\Users\osman.dsilva\Desktop\CG\Project1-firstframe\Debug\Project1.exe

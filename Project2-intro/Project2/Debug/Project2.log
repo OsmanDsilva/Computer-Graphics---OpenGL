@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\osman.dsilva\desktop\cg\project2\project2\source.cpp(8): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project2\project2\source.cpp(33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  Project2.vcxproj -> C:\Users\osman.dsilva\Desktop\CG\Project2\Debug\Project2.exe

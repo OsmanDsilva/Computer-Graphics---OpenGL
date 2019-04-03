@@ -1,0 +1,71 @@
+﻿  Source.cpp
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(20): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(115): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(116): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(117): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(118): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(124): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(125): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(126): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(127): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(131): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(133): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(134): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(135): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(136): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(141): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(142): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(147): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(148): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(153): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(160): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(165): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(166): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(171): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(172): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(177): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(178): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(183): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(184): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(189): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(195): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(201): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(207): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(239): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(244): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(249): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(257): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(263): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(272): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(273): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(274): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(279): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(280): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(281): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(282): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(287): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(288): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(289): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(290): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(295): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(296): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(297): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(298): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(308): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(309): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(310): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(315): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(316): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(317): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(318): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(323): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(324): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(325): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(326): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(331): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(332): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(333): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(334): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(485): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\osman.dsilva\desktop\cg\project4-fourthframe\finishframe\source.cpp(505): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  finishframe.vcxproj -> C:\Users\osman.dsilva\Desktop\CG\Project4-fourthframe\Debug\finishframe.exe
