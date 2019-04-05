@@ -505,7 +505,7 @@ void main(int argc, char **argv)
 {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
-	glutInitWindowSize(800, 600);
+	glutInitWindowSize(800, 800);
 	glutCreateWindow("Frame4");
 	init();
 	glutDisplayFunc(display);

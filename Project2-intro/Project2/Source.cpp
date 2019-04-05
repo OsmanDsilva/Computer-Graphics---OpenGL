@@ -16,11 +16,11 @@ void bitmap_output(int x, int y, const char *string, void *font)
 void display(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	bitmap_output(250, 300, "Dayanana Sagar College of Enginnering", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(300, 350, "Computer Graphics Project", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(320, 400, "Advertisement for Laptop", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(320, 580, "Press spacebar to start", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(330, 620, "Press ESC to exit", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(200, 300, "Dayanana Sagar College of Engineering", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(250, 350, "Computer Graphics Project", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(270, 400, "Advertisement for Laptop", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(290, 580, "Press spacebar to start", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(310, 620, "Press ESC to exit", GLUT_BITMAP_TIMES_ROMAN_24);
 	glFlush();
 }
 void reshape(int w, int h)
@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-	glutInitWindowSize(865, 700);
+	glutInitWindowSize(800, 800);
 	glutCreateWindow("Welcome");
 	glClearColor(1.0, 1.0, 0.0, 1.0);
 	glColor3f(1, 0, 0);
