@@ -756,10 +756,50 @@ void roundRect(GLdouble rad)
 		for (GLint j = 0; j < 40; j += 3)
 		{
 			glPushMatrix();
-			glTranslatef(-20 + j, -21 + i, 0);
+			glTranslatef(-20.5 + j, -21 + i, 0);
 			keys();
 			glPopMatrix();
 		}
+	//keyboard bottom padding
+	glBegin(GL_QUADS);
+	glColor3f(0.1, 0.1, 0.1);
+	glVertex3f(-20, -35, 0);
+	glVertex3f(20, -35, 0);
+	glVertex3f(20, -37, 0);
+	glVertex3f(-20, -37, 0);
+	glEnd();
+	
+	theta -= delTheta;
+
+	//bottom left rounded corner
+	glPushMatrix();
+	glTranslatef(-20, -35, 0);
+	glBegin(GL_TRIANGLE_FAN);
+	{	glColor3f(0.1, 0.1, 0.1);
+	glVertex3f(0, 0, 0);
+	for (i = 0; i <= 25; i++, theta += delTheta)
+	{
+		glVertex2f(rad * cos(theta), rad * sin(theta));
+	}
+	}
+	glEnd();
+	glPopMatrix();
+
+	theta -= delTheta;
+
+	//bottom right rounded corner
+	glPushMatrix();
+	glTranslatef(20, -35, 0);
+	glBegin(GL_TRIANGLE_FAN);
+	{	glColor3f(0.1, 0.1, 0.1);
+	glVertex3f(0, 0, 0);
+	for (i = 0; i <= 25; i++, theta += delTheta)
+	{
+		glVertex2f(rad * cos(theta), rad * sin(theta));
+	}
+	}
+	glEnd();
+	glPopMatrix();
 
 }
 
