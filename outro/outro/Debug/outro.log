@@ -1,4 +1,3 @@
 ﻿  Source.cpp
 c:\users\osman.dsilva\desktop\cg\outro\outro\source.cpp(8): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-c:\users\osman.dsilva\desktop\cg\outro\outro\source.cpp(36): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
   outro.vcxproj -> C:\Users\osman.dsilva\Desktop\CG\outro\Debug\outro.exe

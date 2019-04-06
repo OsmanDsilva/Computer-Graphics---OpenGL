@@ -6,8 +6,9 @@
 #define PI 3.1416
 
 GLint i;
-
-
+GLfloat c1x = 25.0;
+GLfloat c2x = 5.0;
+GLfloat c3x = -10.0;
 
 
 void circle(GLdouble rad)
@@ -528,6 +529,19 @@ void draw_tree()
 	glEnd();
 }
 
+void spinDisplay()
+{
+	c1x = c1x + .1;
+	c2x = c2x + .04;
+	c3x = c3x + .04;
+	//if (c1x > 80 || c2x > 80 || c3x > 80)
+		//c1x = -60;
+		//c2x = -60;
+		//c3x = -60;
+
+	glutPostRedisplay();
+}
+
 
 void display(void)
 {
@@ -611,25 +625,27 @@ void display(void)
 
 	//CARS
 	glPushMatrix();
-	glTranslatef(25, -15, 0);
+	glTranslatef(c1x, -15, 0);
 	glScalef(40, 20, 0);
 	car1();
 	glPopMatrix();
 
 	glPushMatrix();
-	glTranslatef(5, -10, 0);
+	glTranslatef(c2x, -10, 0);
 	glScalef(40, 20, 0);
 	car2();
 	glPopMatrix();
 
 	glPushMatrix();
-	glTranslatef(-10, -25, 0);
+	glTranslatef(c3x, -25, 0);
 	glScalef(40, 20, 0);
 	car3();
 	glPopMatrix();
 
 	glFlush();
 }
+
+
 
 
 void main(int argc, char **argv)
@@ -640,5 +656,6 @@ void main(int argc, char **argv)
 	glutCreateWindow("Frame1");
 	init();
 	glutDisplayFunc(display);
+	glutIdleFunc(spinDisplay);
 	glutMainLoop();
 }

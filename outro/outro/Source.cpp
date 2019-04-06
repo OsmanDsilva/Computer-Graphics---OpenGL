@@ -17,25 +17,21 @@ void bitmap_output(int x, int y, const char *string, void *font)
 void display(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	bitmap_output(200, 300, "Dayanana Sagar College of Engineering", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(350, 350, "THE END", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(270, 400, "Computer Graphics Project By:", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(270, 460, "Osman C Dsilva		1DS16CS074", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(270, 490, "Nandan	M	1DS16CS067", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(270, 520, "Samarth S Kulkarni		1DS16CS096", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(330, 620, "Press ESC to exit", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-20, 30, "Dayanana Sagar College of Engineering", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-5, 10, "THE END", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-15, -5, "Computer Graphics Project By:", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-15, -15, "Osman C Dsilva		1DS16CS074", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-15, -20, "Nandan	M	1DS16CS067", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-15, -25, "Samarth S Kulkarni		1DS16CS096", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-10, -35, "Press ESC to exit", GLUT_BITMAP_TIMES_ROMAN_24);
 	glFlush();
 }
-void reshape(int w, int h)
+void init(void)
 {
-	glViewport(0, 0, w, h);
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	gluOrtho2D(0, w, 0, h);
-	glScalef(1, -1, 1);
-	glTranslatef(0, -h, 0);
-	glMatrixMode(GL_MODELVIEW);
+	//glClearColor(0, 0.749, 1, 0);
+	glOrtho(-50.0, 50.0, -50.0, 50.0, -1.0, 1.0);
 }
+
 
 void processNormalKeys(unsigned char key, int x, int y)
 {
@@ -51,8 +47,8 @@ int main(int argc, char **argv)
 	glutCreateWindow("Thank you");
 	glClearColor(1.0, 1.0, 0.0, 1.0);
 	glColor3f(1, 0, 0);
+	init();
 	glutDisplayFunc(display);
-	glutReshapeFunc(reshape);
 	glutKeyboardFunc(processNormalKeys);
 	glutMainLoop();
 	return 0;

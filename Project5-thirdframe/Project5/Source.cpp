@@ -4,7 +4,8 @@
 #include<GL/glut.h>
 #include<math.h>
 #define PI 3.1416
-
+GLfloat c1y = -60.0;
+GLfloat c1x = -70.0;
 GLint i;
 
 void circle(GLdouble rad)
@@ -84,6 +85,16 @@ void init(void)
 	glOrtho(-50.0, 50.0, -50.0, 50.0, -1.0, 1.0);
 }
 
+void spinDisplay()
+{
+	c1x = c1x + .1;
+	c1y = c1y + .1;
+	//if (c1x > 70 || c1y >70)
+		//c1x = -70;
+		//c1y = -70;
+
+	glutPostRedisplay();
+}
 void display(void)
 {
 
@@ -115,7 +126,7 @@ void display(void)
 
 	//Car position
 	glPushMatrix();
-	glTranslatef(-48, -40, 0);
+	glTranslatef(c1x,c1y, 0);
 	glScalef(40, 20, 0);
 	glRotatef(-37, 1,1,1);
 	car1();
@@ -133,5 +144,6 @@ void main(int argc, char **argv)
 	glutCreateWindow("Frame3");
 	init();
 	glutDisplayFunc(display);
+	glutIdleFunc(spinDisplay);
 	glutMainLoop();
 }

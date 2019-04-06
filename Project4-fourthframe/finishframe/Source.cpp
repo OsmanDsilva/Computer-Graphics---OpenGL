@@ -4,6 +4,7 @@
 #include<GL/glut.h>
 #include<math.h>
 #define PI 3.1416
+GLfloat c1x = -50.0;
 
 GLint i;
 
@@ -408,6 +409,14 @@ void draw_tree()
 	glEnd();
 }
 
+void spinDisplay()
+{
+	c1x = c1x + .1;
+	if (c1x > 60)
+		exit(0); //stop the car and transition to the laptop
+
+	glutPostRedisplay();
+}
 
 void display(void)
 {
@@ -491,7 +500,7 @@ void display(void)
 
 	//CARS
 	glPushMatrix();
-	glTranslatef(-10, -15, 0);
+	glTranslatef(c1x, -15, 0);
 	glScalef(40, 20, 0);
 	car1();
 	glPopMatrix();
@@ -509,5 +518,6 @@ void main(int argc, char **argv)
 	glutCreateWindow("Frame4");
 	init();
 	glutDisplayFunc(display);
+	glutIdleFunc(spinDisplay);
 	glutMainLoop();
 }

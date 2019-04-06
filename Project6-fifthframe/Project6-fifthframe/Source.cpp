@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include<stdio.h>
 #define PI 3.1416
+GLfloat c1x = -10.0;
 
 GLint i;
 
@@ -648,13 +649,22 @@ void finalscene()
 
 	//CARS
 	glPushMatrix();
-	glTranslatef(20, -5, 0);
+	glTranslatef(c1x, -5, 0);
 	glScalef(13, 6.5, 0);
 	car1();
 	glPopMatrix();
 }
 //End inside screen
 
+//animate the car
+void spinDisplay()
+{
+	c1x = c1x + .1;
+	if (c1x > 20)
+		exit(0); //make car stop and transition to next frame
+
+	glutPostRedisplay();
+}
 
 void display()
 {	
@@ -673,6 +683,7 @@ void display()
 		glutCreateWindow("Fifth frame");
 		init();
 		glutDisplayFunc(display);
+		glutIdleFunc(spinDisplay);
 		glutMainLoop();
 		return 0;
 	}
