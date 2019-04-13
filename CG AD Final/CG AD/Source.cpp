@@ -5,6 +5,7 @@
 #include<stdlib.h>
 #include<Windows.h>
 #include<math.h>
+#include <dos.h>
 #define PI 3.1416
 
 void bitmap_output(int x, int y, const char *string, void *font)
@@ -524,8 +525,10 @@ void draw_tree()
 
 //second frame construction
 GLfloat f2c1y = -60.0;
+GLfloat f2c2y = -100.0;
+GLfloat f2c3y = -150.0;
 
-void carTop()
+void carTop1()
 {
 	glColor3f(1, 0, 0);
 	glBegin(GL_POLYGON);
@@ -544,6 +547,60 @@ void carTop()
 	glEnd();
 
 	glColor3f(1.0, 0, 0);
+	glBegin(GL_POLYGON);
+	glVertex3f(0.23, .43, 0);
+	glVertex3f(0.32, .43, 0);
+	glVertex3f(.32, .16, 0);
+	glVertex3f(0.23, 0.16, 0);
+	glEnd();
+}
+
+void carTop2()
+{
+	glColor3f(0.2, 0, 0.4);
+	glBegin(GL_POLYGON);
+	glVertex3f(.2, .7, 0);
+	glVertex3f(.35, .7, 0);
+	glVertex3f(.35, .1, 0);
+	glVertex3f(.2, .1, 0);
+	glEnd();
+
+	glColor3f(0.6, 0.7, 0.6);
+	glBegin(GL_POLYGON);
+	glVertex3f(0.22, 0.45, 0);
+	glVertex3f(0.33, 0.45, 0);
+	glVertex3f(0.33, 0.14, 0);
+	glVertex3f(0.22, 0.14, 0);
+	glEnd();
+
+	glColor3f(0.2, 0, 0.4);
+	glBegin(GL_POLYGON);
+	glVertex3f(0.23, .43, 0);
+	glVertex3f(0.32, .43, 0);
+	glVertex3f(.32, .16, 0);
+	glVertex3f(0.23, 0.16, 0);
+	glEnd();
+}
+
+void carTop3()
+{
+	glColor3f(0.6, 0.1, 0.4);
+	glBegin(GL_POLYGON);
+	glVertex3f(.2, .7, 0);
+	glVertex3f(.35, .7, 0);
+	glVertex3f(.35, .1, 0);
+	glVertex3f(.2, .1, 0);
+	glEnd();
+
+	glColor3f(0.6, 0.7, 0.6);
+	glBegin(GL_POLYGON);
+	glVertex3f(0.22, 0.45, 0);
+	glVertex3f(0.33, 0.45, 0);
+	glVertex3f(0.33, 0.14, 0);
+	glVertex3f(0.22, 0.14, 0);
+	glEnd();
+
+	glColor3f(0.6, 0.1, 0.4);
 	glBegin(GL_POLYGON);
 	glVertex3f(0.23, .43, 0);
 	glVertex3f(0.32, .43, 0);
@@ -584,71 +641,45 @@ void treeTop()
 
 
 //third frame construction
-GLfloat f3c1y = -60.0;
-GLfloat f3c1x = -70.0;
+GLfloat f3c1x = -30.0;
+GLfloat f3c2x = 0.0;
+GLfloat f3c3x = 100.0;
+GLfloat f3c4x = 200.0;
+GLfloat f3c5x = 300.0;
+GLfloat f3c6x = 400.0;
+GLfloat f3c7x = 500.0;
+GLfloat f3c8x = -80;
+GLfloat f3c9x = -95;
 
-void carToprot()
+
+void mountain()
 {
-	glColor3f(1, 0, 0);
+	glColor3f(0.6,0.4,0.12);
 	glBegin(GL_POLYGON);
-	glVertex3f(.2, .7, 0);
-	glVertex3f(.35, .7, 0);
-	glVertex3f(.35, .1, 0);
-	glVertex3f(.2, .1, 0);
-	glEnd();
-
-	glColor3f(0.6, 0.7, 0.6);
-	glBegin(GL_POLYGON);
-	glVertex3f(0.22, 0.45, 0);
-	glVertex3f(0.33, 0.45, 0);
-	glVertex3f(0.33, 0.14, 0);
-	glVertex3f(0.22, 0.14, 0);
-	glEnd();
-
-	glColor3f(1.0, 0, 0);
-	glBegin(GL_POLYGON);
-	glVertex3f(0.23, .43, 0);
-	glVertex3f(0.32, .43, 0);
-	glVertex3f(.32, .16, 0);
-	glVertex3f(0.23, 0.16, 0);
+	glVertex3f(0, 0, 0);
+	glVertex3f(10, 0, 0);
+	glVertex3f(5, 10, 0);
 	glEnd();
 }
 
-void treeToprot()
-
-{
-	//left tree
-	glPushMatrix();
-	glColor3f(0.0, 0.5, 0.0);
-	glTranslatef(-10.0, 30.0, 0);
-	circle(7);
-	glPopMatrix();
-
-	//right tree
-	glPushMatrix();
-	glColor3f(0.0, 0.5, 0.0);
-	glTranslatef(-5.0, -30.0, 0);
-	circle(5);
-	glPopMatrix();
-
-	glPushMatrix();
-	glColor3f(0.0, 0.5, 0.0);
-	glTranslatef(36.0, -20.0, 0);
-	circle(7);
-	glPopMatrix();
-}
 //third frame end
 
 
 //fourth frame construction
 
 GLfloat f4c1x = -10.0;
+GLfloat f4c2x = -60.0;
+
 
 //fourth frame end
 
 
 //fifth frame construction
-GLfloat f5c1x = -10.0;
+GLfloat f5c1x = 0.0;
+GLfloat f5c2x = -10.0;
+GLfloat f5c3x = -10.0;
+GLfloat f5c4x = -60.0;
+
 
 void keys()
 {
@@ -929,6 +960,12 @@ void finalscene()
 	glScalef(13, 6.5, 0);
 	car1();
 	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(f5c2x, -3, 0);
+	glScalef(13, 6.5, 0);
+	car2();
+	glPopMatrix();
 }
 //fifth  frame end
 
@@ -1046,6 +1083,7 @@ void display1()
 	draw_start_line();
 	draw_tree();
 
+
 	//CARS
 	glPushMatrix();
 	glTranslatef(f1c1x, -15, 0);
@@ -1097,7 +1135,21 @@ void display2()
 	glPushMatrix();
 	glTranslatef(-15, f2c1y, 0);
 	glScalef(50, 30, 0);
-	carTop();
+	carTop1();
+	glPopMatrix();
+	glFlush();
+
+	glPushMatrix();
+	glTranslatef(-20, f2c2y, 0);
+	glScalef(50, 30, 0);
+	carTop2();
+	glPopMatrix();
+	glFlush();
+
+	glPushMatrix();
+	glTranslatef(-10, f2c3y, 0);
+	glScalef(50, 30, 0);
+	carTop3();
 	glPopMatrix();
 	glFlush();
 }
@@ -1106,38 +1158,119 @@ void display3()
 {
 
 	glClear(GL_COLOR_BUFFER_BIT);
-	glClearColor(0, 1, 0, 0);
 
-	//track
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(38, 50, 0);
-	glVertex3f(50, 50, 0);
-	glVertex3f(50, 38, 0);
-	glVertex3f(-38, -50, 0);
-	glVertex3f(-50, -50, 0);
-	glVertex3f(-50, -38, 0);
+	glColor3f(0.0f, 1.0f, 1.0f);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, 50.0);
+	glVertex2f(50.0, 50.0);
+	glVertex2f(50.0, 12.5);
+	glVertex2f(-50.0, 12.5);
 	glEnd();
 
-	//yellow strip
-	glBegin(GL_POLYGON);
-	glColor4f(255, 255, 0, 1);
-	glVertex3f(49, 50, 0);
-	glVertex3f(50, 50, 0);
-	glVertex3f(50, 49, 0);
-	glVertex3f(-49, -50, 0);
-	glVertex3f(-50, -50, 0);
-	glVertex3f(-50, -49, 0);
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, 12.5);
+	glVertex2f(50.0, 12.5);
+	glVertex2f(50.0, 0.0);
+	glVertex2f(-50.0, 0.0);
 	glEnd();
 
-	treeToprot();
 
-	//Car position
+	glColor3f(0.1f, 0.1f, 0.1f);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, 0.0);
+	glVertex2f(50.0, 0.0);
+	glVertex2f(50.0, -25.0);
+	glVertex2f(-50.0, -25.0);
+	glEnd();
+
+	glColor4f(255.0, 255.0, 0.0, 1.0);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, -11.25);
+	glVertex2f(50.0, -11.25);
+	glVertex2f(50.0, -13.75);
+	glVertex2f(-50.0, -13.75);
+	glEnd();
+
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, -25.0);
+	glVertex2f(50.0, -25.0);
+	glVertex2f(50.0, -50.0);
+	glVertex2f(-50.0, -50.0);
+	glEnd();
+
+
+	//SUN
 	glPushMatrix();
-	glTranslatef(f3c1x, f3c1y, 0);
+	glTranslatef(0.0, 0.0, 0.0);
+	glTranslatef(-20.0, 40.0, 0.0);
+	glScalef(1.0, 1.5, 0.0);
+	glColor3f(1.0, 1.0, 0.0);
+	circle(3);
+	glPopMatrix();
+
+	//Cloud3
+	glPushMatrix();
+	glTranslatef(f3c2x, 0.0, 0.0);
+	glScalef(.8, 1, 0);
+	cloud();
+	glPopMatrix();
+
+	//Cloud4
+	glPushMatrix();
+	glTranslatef(f3c3x, 0.0, 0.0);
+	glScalef(.8, 1, 0);
+	cloud();
+	glPopMatrix();
+
+	//Cloud3
+	glPushMatrix();
+	glTranslatef(f3c4x, 0.0, 0.0);
+	glScalef(.8, 1, 0);
+	cloud();
+	glPopMatrix();
+
+	//Cloud4
+	glPushMatrix();
+	glTranslatef(f3c5x, 0.0, 0.0);
+	glScalef(.8, 1, 0);
+	cloud();
+	glPopMatrix();
+
+	//Cloud3
+	glPushMatrix();
+	glTranslatef(f3c6x, 0.0, 0.0);
+	glScalef(.8, 1, 0);
+	cloud();
+	glPopMatrix();
+
+	//Cloud4
+	glPushMatrix();
+	glTranslatef(f3c7x, 0.0, 0.0);
+	glScalef(.8, 1, 0);
+	cloud();
+	glPopMatrix();
+
+
+
+	//CARS
+	glPushMatrix();
+	glTranslatef(f3c1x, -15, 0);
 	glScalef(40, 20, 0);
-	glRotatef(-37, 1, 1, 1);
-	carToprot();
+	car1();
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(f3c8x, -10, 0);
+	glScalef(40, 20, 0);
+	car2();
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(f3c9x, -20, 0);
+	glScalef(40, 20, 0);
+	car3();
 	glPopMatrix();
 
 	glFlush();
@@ -1231,6 +1364,12 @@ void display4()
 	car1();
 	glPopMatrix();
 
+	glPushMatrix();
+	glTranslatef(f4c2x, -10, 0);
+	glScalef(40, 20, 0);
+	car2();
+	glPopMatrix();
+
 	glFlush();
 
 }
@@ -1238,9 +1377,100 @@ void display4()
 void display5()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	glClearColor(0.5, 0.9, 0.9, 0);
+	glClearColor(0, 1, 0, 0);
+
+	glColor3f(0.0f, 1.0f, 1.0f);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, 50.0);
+	glVertex2f(50.0, 50.0);
+	glVertex2f(50.0, 12.5);
+	glVertex2f(-50.0, 12.5);
+	glEnd();
+
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, 12.5);
+	glVertex2f(50.0, 12.5);
+	glVertex2f(50.0, 0.0);
+	glVertex2f(-50.0, 0.0);
+	glEnd();
+
+
+	glColor3f(0.1f, 0.1f, 0.1f);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, 0.0);
+	glVertex2f(50.0, 0.0);
+	glVertex2f(50.0, -25.0);
+	glVertex2f(-50.0, -25.0);
+	glEnd();
+
+	glColor4f(255.0, 255.0, 0.0, 1.0);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, -11.25);
+	glVertex2f(50.0, -11.25);
+	glVertex2f(50.0, -13.75);
+	glVertex2f(-50.0, -13.75);
+	glEnd();
+
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glBegin(GL_QUADS);
+	glVertex2f(-50.0, -25.0);
+	glVertex2f(50.0, -25.0);
+	glVertex2f(50.0, -50.0);
+	glVertex2f(-50.0, -50.0);
+	glEnd();
+
+
+	//SUN
+	glPushMatrix();
+	glTranslatef(0.0, 0.0, 0.0);
+	glTranslatef(-20.0, 40.0, 0.0);
+	glScalef(1.0, 1.5, 0.0);
+	glColor3f(1.0, 1.0, 0.0);
+	circle(3);
+	glPopMatrix();
+
+	//Cloud1
+	glPushMatrix();
+	glColor3f(1, 1, 1);
+	glTranslatef(0, 17.0, 0.0);
+	cloudB();
+	glPopMatrix();
+
+	//Cloud2
+	glPushMatrix();
+	glColor3f(1, 1, 1);
+	glTranslatef(0, 20.0, 0.0);
+	cloudB();
+	glPopMatrix();
+
+	//Cloud3
+	glPushMatrix();
+	glTranslatef(0, 0.0, 0.0);
+	glScalef(.8, 1, 0);
+	cloud();
+	glPopMatrix();
+
+	draw_start_line();
+	draw_tree();
+
+	//CARS
+	glPushMatrix();
+	glTranslatef(f5c3x, -15, 0);
+	glScalef(40, 20, 0);
+	car1();
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(f5c4x, -10, 0);
+	glScalef(40, 20, 0);
+	car2();
+	glPopMatrix();
+
 	roundRect(2);
+
 	finalscene();
+
 	glFlush();
 
 }
@@ -1262,21 +1492,38 @@ void display6()
 }*/
 
 //Animation functions
+
 void spinDisplay5()
 {
-	f5c1x = f5c1x + .1;
+	int c, d;
+	f5c1x = f5c1x + .01;
+	f5c2x = f5c2x + .01;
+	f5c3x = f5c3x + .03;
+	f5c4x = f5c4x + .03;
 	if (f5c1x > 20)
+	{
 		glutDisplayFunc(display6);
+		for (c = 1; c <= 32767; c++)
+			for (d = 1; d <= 32767; d++)
+			{
+			}
+	}
 	glutPostRedisplay();
 
 }
 
 void spinDisplay4()
 {	
-	f4c1x = f4c1x + .1;
+	int c, d;
+	f4c1x = f4c1x + .04;
+	f4c2x = f4c2x + .04;
 	if (f4c1x > 60) {
 		glutDisplayFunc(display5);
 		glutIdleFunc(spinDisplay5);
+		for (c = 1; c <= 32767; c++)
+			for (d = 1; d <= 30000; d++)
+			{
+			}
 	}
 	glutPostRedisplay();
 
@@ -1284,9 +1531,17 @@ void spinDisplay4()
 
 void spinDisplay3()
 {
-	f3c1x = f3c1x + .1;
-	f3c1y = f3c1y + .1;
-	if (f3c1x > 60 || f3c1y > 60) {
+	f3c1x = f3c1x + .05;
+	f3c8x = f3c8x + .05;
+	f3c9x = f3c9x + .05;
+	f3c2x = f3c2x - .09;
+	f3c3x = f3c3x - .09;
+	f3c4x = f3c4x - .09;
+	f3c5x = f3c5x - .09;
+	f3c6x = f3c6x - .09;
+	f3c7x = f3c7x - .09;
+
+	if (f3c9x > 80) {
 		glutDisplayFunc(display4);
 		glutIdleFunc(spinDisplay4);
 	}
@@ -1296,8 +1551,10 @@ void spinDisplay3()
 
 void spinDisplay2()
 {
-	f2c1y = f2c1y + .1;
-	if (f2c1y > 60) {
+	f2c1y = f2c1y + .03;
+	f2c2y = f2c2y + .03;
+	f2c3y = f2c3y + .03;
+	if (f2c3y > 60) {
 		glutDisplayFunc(display3);
 		glutIdleFunc(spinDisplay3);
 	}
@@ -1307,9 +1564,10 @@ void spinDisplay2()
 
 void spinDisplay1()
 {
-	f1c1x = f1c1x + .1;
-	f1c2x = f1c2x + .04;
-	f1c3x = f1c3x + .04;
+		f1c1x = f1c1x + .03;
+		f1c2x = f1c2x + .009;
+		f1c3x = f1c3x + .009;
+	
 	if (f1c1x > 80) {
 		glutDisplayFunc(display2);
 		glutIdleFunc(spinDisplay2);
