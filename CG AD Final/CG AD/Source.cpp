@@ -8,6 +8,8 @@
 #include <dos.h>
 #define PI 3.1416
 
+int keyFlag = 1;
+
 void bitmap_output(int x, int y, const char *string, void *font)
 {
 	int len, i;
@@ -1377,7 +1379,7 @@ void display4()
 void display5()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	glClearColor(0, 1, 0, 0);
+	glClearColor(0.5, 0.9, 0.9, 0);
 
 	glColor3f(0.0f, 1.0f, 1.0f);
 	glBegin(GL_QUADS);
@@ -1484,22 +1486,31 @@ void display6()
 	glFlush();
 }
 
-/*void displayf()
+//keyboard functions
+void processFrameKeys(unsigned char key, int x, int y)
 {
-	glClear(GL_COLOR_BUFFER_BIT);
-	outro();
-	glFlush();
-}*/
+	if (key == 32)
+	{
+		if (keyFlag == 0)
+			keyFlag = 1;
+		else
+			keyFlag = 0;
+	}
+}
+
 
 //Animation functions
 
 void spinDisplay5()
 {
 	int c, d;
-	f5c1x = f5c1x + .01;
-	f5c2x = f5c2x + .01;
-	f5c3x = f5c3x + .03;
-	f5c4x = f5c4x + .03;
+	if (keyFlag == 1)
+	{
+		f5c1x = f5c1x + .01;
+		f5c2x = f5c2x + .01;
+		f5c3x = f5c3x + .03;
+		f5c4x = f5c4x + .03;
+	}
 	if (f5c1x > 20)
 	{
 		glutDisplayFunc(display6);
@@ -1515,11 +1526,15 @@ void spinDisplay5()
 void spinDisplay4()
 {	
 	int c, d;
-	f4c1x = f4c1x + .04;
-	f4c2x = f4c2x + .04;
+	if (keyFlag == 1)
+	{
+		f4c1x = f4c1x + .04;
+		f4c2x = f4c2x + .04;
+	}
 	if (f4c1x > 60) {
 		glutDisplayFunc(display5);
 		glutIdleFunc(spinDisplay5);
+		glutKeyboardFunc(processFrameKeys);
 		for (c = 1; c <= 32767; c++)
 			for (d = 1; d <= 30000; d++)
 			{
@@ -1531,19 +1546,22 @@ void spinDisplay4()
 
 void spinDisplay3()
 {
-	f3c1x = f3c1x + .05;
-	f3c8x = f3c8x + .05;
-	f3c9x = f3c9x + .05;
-	f3c2x = f3c2x - .09;
-	f3c3x = f3c3x - .09;
-	f3c4x = f3c4x - .09;
-	f3c5x = f3c5x - .09;
-	f3c6x = f3c6x - .09;
-	f3c7x = f3c7x - .09;
-
+	if (keyFlag == 1)
+	{
+		f3c1x = f3c1x + .05;
+		f3c8x = f3c8x + .05;
+		f3c9x = f3c9x + .05;
+		f3c2x = f3c2x - .09;
+		f3c3x = f3c3x - .09;
+		f3c4x = f3c4x - .09;
+		f3c5x = f3c5x - .09;
+		f3c6x = f3c6x - .09;
+		f3c7x = f3c7x - .09;
+	}
 	if (f3c9x > 80) {
 		glutDisplayFunc(display4);
 		glutIdleFunc(spinDisplay4);
+		glutKeyboardFunc(processFrameKeys);
 	}
 	glutPostRedisplay();
 
@@ -1551,12 +1569,16 @@ void spinDisplay3()
 
 void spinDisplay2()
 {
-	f2c1y = f2c1y + .03;
-	f2c2y = f2c2y + .03;
-	f2c3y = f2c3y + .03;
+	if (keyFlag == 1)
+	{
+		f2c1y = f2c1y + .03;
+		f2c2y = f2c2y + .03;
+		f2c3y = f2c3y + .03;
+	}
 	if (f2c3y > 60) {
 		glutDisplayFunc(display3);
 		glutIdleFunc(spinDisplay3);
+		glutKeyboardFunc(processFrameKeys);
 	}
 
 	glutPostRedisplay();
@@ -1564,19 +1586,21 @@ void spinDisplay2()
 
 void spinDisplay1()
 {
+	if (keyFlag == 1)
+	{
 		f1c1x = f1c1x + .03;
 		f1c2x = f1c2x + .009;
 		f1c3x = f1c3x + .009;
-	
+	}
 	if (f1c1x > 80) {
 		glutDisplayFunc(display2);
 		glutIdleFunc(spinDisplay2);
+		glutKeyboardFunc(processFrameKeys);
 	}
 	glutPostRedisplay();
 }
 
-
-//User input
+//user input
 void processNormalKeys(unsigned char key, int x, int y)
 {
 	if (key == 27)
@@ -1584,14 +1608,9 @@ void processNormalKeys(unsigned char key, int x, int y)
 	else if (key == 32) {
 		glutDisplayFunc(display1);
 		glutIdleFunc(spinDisplay1);
+		glutKeyboardFunc(processFrameKeys);
 	}
-	/*if (key == 'e') {
-		
-		glutDisplayFunc(displayf);
-	}*/
-	
 }
-
 
 void init(void)
 {
