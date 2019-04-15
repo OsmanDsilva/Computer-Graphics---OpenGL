@@ -10,6 +10,11 @@
 
 int keyFlag = 1;
 
+GLint r[14] = {148,75,0,0,255,255,255,148,75,0,0,255,255,255 };
+GLint g[14] = {0,0,0,255,255,127,0,0,0,0,255,255,127,0 };
+GLint b[14] = {211,130,255,0,0,0,0,211,130,255,0,0,0,0 };
+
+
 void bitmap_output(int x, int y, const char *string, void *font)
 {
 	int len, i;
@@ -23,7 +28,7 @@ void bitmap_output(int x, int y, const char *string, void *font)
 
 void intro()
 {
-	bitmap_output(-20, 40, "Dayanana Sagar College of Engineering", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-20, 40, "Dayananada Sagar College of Engineering", GLUT_BITMAP_TIMES_ROMAN_24);
 	bitmap_output(-15, 30, "Computer Graphics Project", GLUT_BITMAP_TIMES_ROMAN_24);
 	bitmap_output(-15, 20, "Advertisement for Laptop", GLUT_BITMAP_TIMES_ROMAN_24);
 	bitmap_output(-12, 5, "Press spacebar to start", GLUT_BITMAP_TIMES_ROMAN_24);
@@ -670,7 +675,6 @@ void mountain()
 //fourth frame construction
 
 GLfloat f4c1x = -10.0;
-GLfloat f4c2x = -60.0;
 
 
 //fourth frame end
@@ -678,10 +682,12 @@ GLfloat f4c2x = -60.0;
 
 //fifth frame construction
 GLfloat f5c1x = 0.0;
-GLfloat f5c2x = -10.0;
 GLfloat f5c3x = -10.0;
-GLfloat f5c4x = -60.0;
+//fifth frame end
 
+//sixth frame construction
+GLint clo = 0;
+//sixth frame end
 
 void keys()
 {
@@ -963,11 +969,6 @@ void finalscene()
 	car1();
 	glPopMatrix();
 
-	glPushMatrix();
-	glTranslatef(f5c2x, -3, 0);
-	glScalef(13, 6.5, 0);
-	car2();
-	glPopMatrix();
 }
 //fifth  frame end
 
@@ -983,18 +984,6 @@ void ad()
 	bitmap_output(-12, -9, "Starting at Rs. 95,000/-", GLUT_BITMAP_HELVETICA_18);
 }
 //sixth frame end
-
-
-/*void outro()
-{
-	bitmap_output(-20, 30, "Dayanana Sagar College of Engineering", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(-5, 10, "THE END", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(-15, -5, "Computer Graphics Project By:", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(-15, -15, "Osman C Dsilva		1DS16CS074", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(-15, -20, "Nandan	M	1DS16CS067", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(-15, -25, "Samarth S Kulkarni		1DS16CS096", GLUT_BITMAP_TIMES_ROMAN_24);
-	bitmap_output(-10, -35, "Press ESC to exit", GLUT_BITMAP_TIMES_ROMAN_24);
-}*/
 
 
 
@@ -1139,14 +1128,12 @@ void display2()
 	glScalef(50, 30, 0);
 	carTop1();
 	glPopMatrix();
-	glFlush();
 
 	glPushMatrix();
 	glTranslatef(-20, f2c2y, 0);
 	glScalef(50, 30, 0);
 	carTop2();
 	glPopMatrix();
-	glFlush();
 
 	glPushMatrix();
 	glTranslatef(-10, f2c3y, 0);
@@ -1366,11 +1353,6 @@ void display4()
 	car1();
 	glPopMatrix();
 
-	glPushMatrix();
-	glTranslatef(f4c2x, -10, 0);
-	glScalef(40, 20, 0);
-	car2();
-	glPopMatrix();
 
 	glFlush();
 
@@ -1379,7 +1361,7 @@ void display4()
 void display5()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	glClearColor(0.5, 0.9, 0.9, 0);
+	glClearColor(1, 1, 1, 0);
 
 	glColor3f(0.0f, 1.0f, 1.0f);
 	glBegin(GL_QUADS);
@@ -1463,11 +1445,6 @@ void display5()
 	car1();
 	glPopMatrix();
 
-	glPushMatrix();
-	glTranslatef(f5c4x, -10, 0);
-	glScalef(40, 20, 0);
-	car2();
-	glPopMatrix();
 
 	roundRect(2);
 
@@ -1480,7 +1457,201 @@ void display5()
 void display6()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	glClearColor(0.5, 0.9, 0.9, 0);
+	glClearColor(1, 1, 1, 0);
+
+	//violet
+	glPushMatrix();
+	glColor3ub(r[clo], g[clo], b[clo]);
+	glTranslatef(-34,35,0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo], g[clo], b[clo]);
+	glTranslatef(-10, 35, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo], g[clo], b[clo]);
+	glTranslatef(14, 35, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo], g[clo], b[clo]);
+	glTranslatef(38, 35, 0);
+	cloudB();
+	glPopMatrix();
+
+	//indigo
+	glPushMatrix();
+	glColor3ub(r[clo + 1], g[clo + 1], b[clo + 1]);
+	glTranslatef(-46, 22, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 1], g[clo + 1], b[clo + 1]);
+	glTranslatef(-22, 22, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 1], g[clo + 1], b[clo + 1]);
+	glTranslatef(2, 22, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 1], g[clo + 1], b[clo + 1]);
+	glTranslatef(26, 22, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 1], g[clo + 1], b[clo + 1]);
+	glTranslatef(50, 22, 0);
+	cloudB();
+	glPopMatrix();
+
+	//blue
+	glPushMatrix();
+	glColor3ub(r[clo + 2], g[clo + 2], b[clo + 2]);
+	glTranslatef(-34, 9, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 2], g[clo + 2], b[clo + 2]);
+	glTranslatef(-10, 9, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 2], g[clo + 2], b[clo + 2]);
+	glTranslatef(14, 9, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 2], g[clo + 2], b[clo + 2]);
+	glTranslatef(38, 9, 0);
+	cloudB();
+	glPopMatrix();
+
+	//green
+	glPushMatrix();
+	glColor3ub(r[clo + 3], g[clo + 3], b[clo + 3]);
+	glTranslatef(-46, -4, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 3], g[clo + 3], b[clo + 3]);
+	glTranslatef(-22, -4, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 3], g[clo + 3], b[clo + 3]);
+	glTranslatef(2, -4, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 3], g[clo + 3], b[clo + 3]);
+	glTranslatef(26, -4, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 3], g[clo + 3], b[clo + 3]);
+	glTranslatef(50, -4, 0);
+	cloudB();
+	glPopMatrix();
+
+	//yellow
+	glPushMatrix();
+	glColor3ub(r[clo + 4], g[clo + 4], b[clo + 4]);
+	glTranslatef(-34, -17, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 4], g[clo + 4], b[clo + 4]);
+	glTranslatef(-10, -17, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 4], g[clo + 4], b[clo + 4]);
+	glTranslatef(14, -17, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 4], g[clo + 4], b[clo + 4]);
+	glTranslatef(38, -17, 0);
+	cloudB();
+	glPopMatrix();
+
+	//orange
+	glPushMatrix();
+	glColor3ub(r[clo + 5], g[clo + 5], b[clo + 5]);
+	glTranslatef(-46, -30, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 5], g[clo + 5], b[clo + 5]);
+	glTranslatef(-22, -30, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 5], g[clo + 5], b[clo + 5]);
+	glTranslatef(2, -30, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 5], g[clo + 5], b[clo + 5]);
+	glTranslatef(26, -30, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 5], g[clo + 5], b[clo + 5]);
+	glTranslatef(50, -30, 0);
+	cloudB();
+	glPopMatrix();
+
+	//red
+	glPushMatrix();
+	glColor3ub(r[clo + 6], g[clo + 6], b[clo + 6]);
+	glTranslatef(-34, -43, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 6], g[clo + 6], b[clo + 6]);
+	glTranslatef(-10, -43, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 6], g[clo + 6], b[clo + 6]);
+	glTranslatef(14, -43, 0);
+	cloudB();
+	glPopMatrix();
+
+	glPushMatrix();
+	glColor3ub(r[clo + 6], g[clo + 6], b[clo + 6]);
+	glTranslatef(38, -43, 0);
+	cloudB();
+	glPopMatrix();
+
 	roundRect(2);
 	ad();
 	glFlush();
@@ -1501,19 +1672,33 @@ void processFrameKeys(unsigned char key, int x, int y)
 
 //Animation functions
 
+void spinDisplay6()
+{
+	int c, d;
+	if (clo == 6)
+		clo = 0;
+	else
+		clo++;
+	for (c = 1; c <= 32767; c++)
+		for (d = 1; d <= 20000; d++)
+		{}
+	glutPostRedisplay();
+
+}
+
 void spinDisplay5()
 {
 	int c, d;
 	if (keyFlag == 1)
 	{
 		f5c1x = f5c1x + .01;
-		f5c2x = f5c2x + .01;
 		f5c3x = f5c3x + .03;
-		f5c4x = f5c4x + .03;
+
 	}
 	if (f5c1x > 20)
 	{
 		glutDisplayFunc(display6);
+		glutIdleFunc(spinDisplay6);
 		for (c = 1; c <= 32767; c++)
 			for (d = 1; d <= 32767; d++)
 			{
@@ -1529,7 +1714,6 @@ void spinDisplay4()
 	if (keyFlag == 1)
 	{
 		f4c1x = f4c1x + .04;
-		f4c2x = f4c2x + .04;
 	}
 	if (f4c1x > 60) {
 		glutDisplayFunc(display5);
@@ -1548,7 +1732,7 @@ void spinDisplay3()
 {
 	if (keyFlag == 1)
 	{
-		f3c1x = f3c1x + .05;
+		f3c1x = f3c1x + .07;
 		f3c8x = f3c8x + .05;
 		f3c9x = f3c9x + .05;
 		f3c2x = f3c2x - .09;
@@ -1571,7 +1755,7 @@ void spinDisplay2()
 {
 	if (keyFlag == 1)
 	{
-		f2c1y = f2c1y + .03;
+		f2c1y = f2c1y + .05;
 		f2c2y = f2c2y + .03;
 		f2c3y = f2c3y + .03;
 	}
