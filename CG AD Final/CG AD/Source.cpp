@@ -1680,7 +1680,7 @@ void spinDisplay6()
 	else
 		clo++;
 	for (c = 1; c <= 32767; c++)
-		for (d = 1; d <= 20000; d++)
+		for (d = 1; d <= 10000; d++)
 		{}
 	glutPostRedisplay();
 
