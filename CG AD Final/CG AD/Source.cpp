@@ -205,6 +205,8 @@ void car1()
 	glVertex3f(-0.72, 0.4, 0);
 	glEnd();
 
+
+	//tires
 	glColor3f(0.0, 0.0, 0.0);
 	glPushMatrix();
 	glTranslatef(-.78, .2, 0);
@@ -658,16 +660,6 @@ GLfloat f3c7x = 500.0;
 GLfloat f3c8x = -80;
 GLfloat f3c9x = -95;
 
-
-void mountain()
-{
-	glColor3f(0.6,0.4,0.12);
-	glBegin(GL_POLYGON);
-	glVertex3f(0, 0, 0);
-	glVertex3f(10, 0, 0);
-	glVertex3f(5, 10, 0);
-	glEnd();
-}
 
 //third frame end
 

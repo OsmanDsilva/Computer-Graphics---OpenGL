@@ -1,201 +1,200 @@
 ﻿  Source.cpp
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(59): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(136): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(137): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(138): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(139): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(145): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(146): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(147): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(148): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(152): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(154): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(155): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(156): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(157): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(162): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(163): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(168): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(169): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(174): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(181): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(186): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(187): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(192): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(193): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(198): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(199): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(204): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(205): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(210): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(216): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(222): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(228): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(236): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(238): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(239): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(240): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(241): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(245): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(247): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(248): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(249): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(250): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(254): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(256): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(257): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(258): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(259): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(264): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(270): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(276): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(282): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(290): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(292): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(293): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(294): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(295): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(299): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(301): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(302): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(303): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(304): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(308): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(310): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(311): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(312): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(313): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(318): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(324): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(330): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(336): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(366): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(371): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(376): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(384): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(393): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(394): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(395): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(400): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(401): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(402): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(403): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(408): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(409): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(410): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(411): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(416): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(417): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(418): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(419): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(429): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(430): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(431): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(436): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(437): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(438): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(439): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(444): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(445): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(446): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(447): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(452): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(453): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(454): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(455): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(542): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(543): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(544): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(545): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(548): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(550): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(551): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(552): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(553): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(558): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(559): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(560): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(561): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(567): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(569): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(570): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(571): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(572): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(575): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(577): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(578): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(579): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(580): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(583): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(585): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(586): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(587): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(588): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(594): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(596): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(597): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(598): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(599): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(602): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(604): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(605): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(606): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(607): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(610): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(612): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(613): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(614): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(615): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(664): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(711): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(756): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(771): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(787): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(798): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(798): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(804): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(817): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(821): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(833): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(837): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(850): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(864): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(878): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(892): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(906): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(922): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(930): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(939): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(946): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(947): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(954): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(961): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1070): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1205): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1212): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1219): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1226): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1233): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1240): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1342): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1434): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1694): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1695): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1716): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1735): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1736): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1737): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1738): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1739): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1740): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1741): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1742): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1743): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1758): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1759): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1760): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1775): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1776): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\likith\desktop\new folder\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1777): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-  CG AD.vcxproj -> C:\Users\likith\Desktop\New folder\CG\Computer-Graphics---OpenGL\CG AD Final\Debug\CG AD.exe
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(59): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(136): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(137): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(138): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(139): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(145): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(146): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(147): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(148): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(152): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(154): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(155): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(156): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(157): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(162): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(163): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(168): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(169): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(174): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(181): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(186): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(187): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(192): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(193): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(198): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(199): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(204): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(205): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(212): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(218): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(224): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(230): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(238): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(240): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(241): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(242): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(243): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(247): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(249): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(250): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(251): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(252): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(256): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(258): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(259): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(260): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(261): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(266): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(272): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(278): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(284): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(292): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(294): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(295): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(296): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(297): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(301): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(303): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(304): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(305): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(306): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(310): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(312): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(313): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(314): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(315): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(320): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(326): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(332): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(338): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(368): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(373): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(378): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(386): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(395): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(396): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(397): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(402): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(403): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(404): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(405): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(410): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(411): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(412): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(413): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(418): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(419): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(420): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(421): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(431): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(432): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(433): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(438): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(439): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(440): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(441): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(446): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(447): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(448): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(449): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(454): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(455): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(456): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(457): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(544): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(545): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(546): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(547): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(550): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(552): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(553): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(554): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(555): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(560): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(561): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(562): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(563): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(569): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(571): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(572): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(573): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(574): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(577): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(579): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(580): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(581): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(582): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(585): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(587): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(588): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(589): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(590): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(596): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(598): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(599): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(600): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(601): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(604): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(606): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(607): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(608): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(609): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(612): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(614): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(615): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(616): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(617): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(703): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(748): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(763): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(779): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(790): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(790): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(796): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(809): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(813): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(825): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(829): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(842): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(856): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(870): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(884): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(898): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(914): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(922): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(931): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(938): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(939): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(946): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(953): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1062): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1197): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1204): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1211): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1218): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1225): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1232): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1334): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1426): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1686): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1687): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1708): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1727): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1728): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1729): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1730): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1731): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1732): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1733): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1734): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1735): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1750): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1751): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1752): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1767): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1768): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\cg\computer-graphics---opengl\cg ad final\cg ad\source.cpp(1769): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  CG AD.vcxproj -> C:\CG\Computer-Graphics---OpenGL\CG AD Final\Debug\CG AD.exe
