@@ -1683,8 +1683,8 @@ void spinDisplay5()
 	int c, d;
 	if (keyFlag == 1)
 	{
-		f5c1x = f5c1x + .01;
-		f5c3x = f5c3x + .03;
+		f5c1x = f5c1x + .2;
+		f5c3x = f5c3x + .1;
 
 	}
 	if (f5c1x > 20)
@@ -1705,13 +1705,13 @@ void spinDisplay4()
 	int c, d;
 	if (keyFlag == 1)
 	{
-		f4c1x = f4c1x + .04;
+		f4c1x = f4c1x + .2;
 	}
 	if (f4c1x > 60) {
 		glutDisplayFunc(display5);
 		glutIdleFunc(spinDisplay5);
 		glutKeyboardFunc(processFrameKeys);
-		for (c = 1; c <= 32767; c++)
+		for (c = 1; c <= 2767; c++)
 			for (d = 1; d <= 30000; d++)
 			{
 			}
@@ -1724,9 +1724,9 @@ void spinDisplay3()
 {
 	if (keyFlag == 1)
 	{
-		f3c1x = f3c1x + .07;
-		f3c8x = f3c8x + .05;
-		f3c9x = f3c9x + .05;
+		f3c1x = f3c1x + .09; //car1
+		f3c8x = f3c8x + .07; //car2
+		f3c9x = f3c9x + .07; //car3
 		f3c2x = f3c2x - .09;
 		f3c3x = f3c3x - .09;
 		f3c4x = f3c4x - .09;
